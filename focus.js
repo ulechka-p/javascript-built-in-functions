@@ -1,5 +1,5 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
-const allResults = await Promise.all(items.map(async (item) => {}));
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const repositoryRootPath = path.resolve(__dirname, '..');
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const merge = (a, b) => a.concat(b);
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const uniqueArray = arr => [...new Set(arr)];
