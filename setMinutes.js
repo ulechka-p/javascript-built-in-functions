@@ -1,4 +1,3 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const currentDate = () => new Date().toLocaleDateString('en-US');
-console.log("0 && 1 = "+(0 && 1));
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
