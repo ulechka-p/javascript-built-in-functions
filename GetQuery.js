@@ -1,2 +1,2 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+var arr3 = "jones".split('');
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
