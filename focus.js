@@ -1,3 +1,3 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-console.log( "A" - "B" + 2);
-const getRandomBoolean = () => Math.random() >= 0.5;
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const isEven = (num) => num % 2 === 0;
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
