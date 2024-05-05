@@ -1,3 +1,3 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const results = await Promise.all(resultingPromises);
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const randomBoolean = () => Math.random() >= 0.5;
