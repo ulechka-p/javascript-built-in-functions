@@ -1,3 +1,3 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const getRandomBoolean = () => Math.random() >= 0.5;
+const randomString = () => Math.random().toString(36).slice(2);
+console.log(false === '0');
