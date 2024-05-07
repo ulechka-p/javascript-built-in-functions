@@ -1,3 +1,2 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const randomString = () => Math.random().toString(36).slice(2);
-console.log(false === '0');
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const isArray = (arr) => Array.isArray(arr);
