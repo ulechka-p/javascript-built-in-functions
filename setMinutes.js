@@ -1,2 +1,2 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const isArray = (arr) => Array.isArray(arr);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const randomString = () => Math.random().toString(36).slice(2);
