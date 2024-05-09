@@ -1,2 +1,2 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const randomString = () => Math.random().toString(36).slice(2);
+const channelName = getChannelName(channel);
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
