@@ -1,3 +1,2 @@
-console.log(false == '0');
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const allResults = await Promise.all(items.map(async (item) => {}));
