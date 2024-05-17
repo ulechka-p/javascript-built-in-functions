@@ -1,1 +1,3 @@
-const flattenedArray = arr => [].concat(...arr);
+console.log("1 || 2 = "+(1 || 2));
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const repositoryRootPath = path.resolve(__dirname, '..');
