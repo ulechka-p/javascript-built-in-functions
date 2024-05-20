@@ -1,3 +1,3 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const merge = (a, b) => [...a, ...b];
-const fullName = name || 'buddy';
+const channelName = getChannelName(channel);
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const isTabInView = () => !document.hidden;
