@@ -1,1 +1,3 @@
-const updated = numbers.filter(element => element > 6);
+console.log(typeof typeof 1);
+const isTabInView = () => !document.hidden;
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
