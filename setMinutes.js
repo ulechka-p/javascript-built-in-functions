@@ -1,3 +1,1 @@
-const channelName = getChannelName(channel);
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const isTabInView = () => !document.hidden;
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
