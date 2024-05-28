@@ -1,2 +1,3 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const allResults = await Promise.all(items.map(async (item) => {}));
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+[foo, bar] = [bar, foo];
