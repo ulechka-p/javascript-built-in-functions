@@ -1,3 +1,2 @@
-console.log(typeof typeof 1);
-const isTabInView = () => !document.hidden;
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
