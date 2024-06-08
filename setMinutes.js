@@ -1,2 +1,3 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const merge = (a, b) => a.concat(b);
+const uniqueArray = arr => [...new Set(arr)];
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
