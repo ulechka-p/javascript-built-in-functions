@@ -1,1 +1,1 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const isEmptyObject = obj => Object.keys(obj).length === 0;
