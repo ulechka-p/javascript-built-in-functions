@@ -1,3 +1,2 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const randomBoolean = () => Math.random() >= 0.5;
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+var pattern = {};
