@@ -1,2 +1,2 @@
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-var pattern = {};
+const result = await makeHttpRequest(url);
+const merge = [...new Set([...a, ...b])];
