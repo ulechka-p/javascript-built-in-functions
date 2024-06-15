@@ -1,2 +1,2 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const merge = Object.assign({}, obj1, obj2);
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
