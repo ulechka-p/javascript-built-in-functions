@@ -1,2 +1,3 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const uniqueArr = (arr) => [...new Set(arr)];
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+var arr2 = arr1.reverse();
