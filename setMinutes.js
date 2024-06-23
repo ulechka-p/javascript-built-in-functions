@@ -1,3 +1,3 @@
-console.log("0 || 1 = "+(0 || 1));
-const uniqueArray = arr => [...new Set(arr)];
-const minNumber = arr => Math.min(...arr);
+[foo, bar] = [bar, foo];
+var c = new Counter(); c.add(); c.add(); c.add();
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
