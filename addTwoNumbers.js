@@ -1,3 +1,2 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const maxNumber = arr => Math.max(...arr);
+const isEven = (num) => num % 2 === 0;
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
