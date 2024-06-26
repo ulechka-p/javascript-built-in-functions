@@ -1,3 +1,1 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-var arr2 = arr1.reverse();
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
