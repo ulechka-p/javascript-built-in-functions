@@ -1,1 +1,3 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+var arr3 = "jones".split('');
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const merge = (a, b) => [...a, ...b];
