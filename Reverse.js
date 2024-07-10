@@ -1,3 +1,2 @@
-var pattern = {};
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const reversedString = str => str.split('').reverse().join('');
