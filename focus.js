@@ -1,3 +1,3 @@
-var arr3 = "jones".split('');
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const merge = (a, b) => [...a, ...b];
+const executableName = getExecutableName(channel, appName);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const results = await Promise.all(resultingPromises);
