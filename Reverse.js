@@ -1,1 +1,1 @@
-const reversedString = str => str.split('').reverse().join('');
+const merge = Object.assign({}, obj1, obj2);
