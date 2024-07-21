@@ -1,2 +1,3 @@
-const maxNumber = arr => Math.max(...arr);
-var arr2 = arr1.reverse();
+const merge = (a, b) => [...a, ...b];
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
