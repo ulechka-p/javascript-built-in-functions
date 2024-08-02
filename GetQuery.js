@@ -1,2 +1,2 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const merge = (a, b) => [...a, ...b];
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const minNumber = arr => Math.min(...arr);
